@@ -96,7 +96,7 @@
 	position:absolute;
 	left:32px;
 	top:85px;
-	background-image:url(images/egmail.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -106,7 +106,7 @@
 	position:absolute;
 	left:32px;
 	top:120px;
-	background-image:url(images/emap_pin.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -116,9 +116,10 @@
 	position:absolute;
 	left:32px;
 	top:158px;
-	background-image:url(images/egithub.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
+	;
 }
 #e14_18 { 
 	width:23px;
@@ -158,4 +159,32 @@
   }
   .img20200915072512-1:hover {
 	transform: rotate(15deg);
+  }
+
+  .git-hub {
+	height: 30px;
+	pointer-events: auto;
+	transition: all 0.2s ease;
+	width: 30px;
+  }
+  .git-hub:hover {
+	transform: scale(0.9);
+  }
+  .map-pin {
+	height: 30px;
+	pointer-events: auto;
+	transition: all 0.2s ease;
+	width: 30px;
+  }
+  .map-pin:hover {
+	transform: scale(0.9);
+  }
+  .gmail {
+	height: 30px;
+	pointer-events: auto;
+	transition: all 0.2s ease;
+	width: 30px;
+  }
+  .gmail:hover {
+	transform: scale(0.9);
   }
