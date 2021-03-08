@@ -127,7 +127,7 @@
 	position:absolute;
 	left:110px;
 	top:670px;
-	background-image:url(images/estar.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -137,7 +137,7 @@
 	position:absolute;
 	left:75px;
 	top:705px;
-	background-image:url(images/estar.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -147,7 +147,7 @@
 	position:absolute;
 	left:86px;
 	top:670px;
-	background-image:url(images/estar.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -207,4 +207,4 @@
   .star:hover {
 	transform: translate(0, -5px);
   }
-  
+
