@@ -197,3 +197,14 @@
   .menu:hover {
 	transform: translate(5px, 0);
   }
+
+  .star {
+	height: 20px;
+	pointer-events: auto;
+	transition: all 0.2s ease;
+	width: 23px;
+  }
+  .star:hover {
+	transform: translate(0, -5px);
+  }
+  
