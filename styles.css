@@ -207,4 +207,23 @@
   .star:hover {
 	transform: translate(0, -5px);
   }
+  @import url("https://fonts.googleapis.com/css?family=Pridi:400");
+.name {
+  letter-spacing: 0px;
+  min-height: 56px;
+  min-width: 394px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+}
+.name:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.pridi-normal-white-36px {
+  color: white;
+  font-family: "Pridi", Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
 
