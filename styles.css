@@ -71,7 +71,7 @@
 	position:absolute;
 	left:9px;
 	top:725px;
-	background-image:url(images/emenu.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -187,4 +187,13 @@
   }
   .gmail:hover {
 	transform: scale(0.9);
+  }
+  .menu {
+	height: 50px;
+	pointer-events: auto;
+	transition: all 0.2s ease;
+	width: 50px;
+  }
+  .menu:hover {
+	transform: translate(5px, 0);
   }
